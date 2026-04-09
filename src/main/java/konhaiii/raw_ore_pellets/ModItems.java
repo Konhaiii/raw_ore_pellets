@@ -26,6 +26,6 @@ public class ModItems {
 
 	public static void initialize() {
 		CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS)
-				.register((itemGroup) -> itemGroup.insertAfter(Items.RAW_GOLD, RAW_COPPER_PELLET, RAW_IRON_PELLET, RAW_GOLD_PELLET));
+				.register((itemGroup) -> itemGroup.insertAfter(Items.CHARCOAL, RAW_COPPER_PELLET, RAW_IRON_PELLET, RAW_GOLD_PELLET));
 	}
 }
