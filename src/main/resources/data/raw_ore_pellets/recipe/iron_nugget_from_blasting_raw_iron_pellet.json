@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 12,
+  "experience": 0.07,
+  "group": "iron_nugget",
+  "ingredient": "raw_ore_pellets:raw_iron_pellet",
+  "result": {
+    "id": "minecraft:iron_nugget"
+  }
+}

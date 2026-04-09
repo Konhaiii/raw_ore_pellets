@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"group": "raw_gold",
+	"key": {
+		"#": "raw_ore_pellets:raw_gold_pellet"
+	},
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:raw_gold"
+	}
+}

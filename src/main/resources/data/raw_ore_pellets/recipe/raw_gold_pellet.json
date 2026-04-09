@@ -1,0 +1,11 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"category": "misc",
+	"ingredients": [
+		"minecraft:raw_gold"
+	],
+	"result": {
+		"count": 9,
+		"id": "raw_ore_pellets:raw_gold_pellet"
+	}
+}

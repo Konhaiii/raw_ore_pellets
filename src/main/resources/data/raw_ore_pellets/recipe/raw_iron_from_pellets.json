@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"group": "raw_iron",
+	"key": {
+		"#": "raw_ore_pellets:raw_iron_pellet"
+	},
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:raw_iron"
+	}
+}

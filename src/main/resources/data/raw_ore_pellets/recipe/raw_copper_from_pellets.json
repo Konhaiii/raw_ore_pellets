@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "misc",
+	"group": "raw_copper",
+	"key": {
+		"#": "raw_ore_pellets:raw_copper_pellet"
+	},
+	"pattern": [
+		"###",
+		"###",
+		"###"
+	],
+	"result": {
+		"count": 1,
+		"id": "minecraft:raw_copper"
+	}
+}

@@ -1,0 +1,8 @@
+{
+	"item.raw_ore_pellets.raw_copper_pellet": "Raw Copper Pellet",
+	"item.raw_ore_pellets.raw_iron_pellet": "Raw Iron Pellet",
+	"item.raw_ore_pellets.raw_gold_pellet": "Raw Gold Pellet",
+
+	"advancements.story.copper_tools.description": "Construct an even better Pickaxe",
+	"advancements.story.copper_tools.title": "Copper Time"
+}

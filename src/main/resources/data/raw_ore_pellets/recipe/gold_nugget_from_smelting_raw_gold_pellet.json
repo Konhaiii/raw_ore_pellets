@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 24,
+  "experience": 0.07,
+  "group": "gold_nugget",
+  "ingredient": "raw_ore_pellets:raw_gold_pellet",
+  "result": {
+    "id": "minecraft:gold_nugget"
+  }
+}

@@ -1,0 +1,39 @@
+{
+	"schemaVersion": 1,
+	"id": "raw_ore_pellets",
+	"version": "${version}",
+	"name": "Raw Ore Pellets",
+	"description": "Raw ore pellets replace full drops when mining using low-tier tools, reducing ore output early game.",
+	"authors": [
+		"Konhaiii"
+	],
+	"contact": {
+		"homepage": "https://github.com/Konhaiii/raw_ore_pellets",
+		"sources": "https://github.com/Konhaiii/raw_ore_pellets",
+		"issues": "https://github.com/Konhaiii/raw_ore_pellets/issues"
+	},
+	"license": "CC-BY-NC-4.0",
+	"icon": "assets/raw_ore_pellets/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"konhaiii.raw_ore_pellets.RawOrePellets"
+		],
+		"client": [
+			"konhaiii.raw_ore_pellets.client.RawOrePelletsClient"
+		]
+	},
+	"mixins": [
+		"raw_ore_pellets.mixins.json",
+		{
+			"config": "raw_ore_pellets.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.6",
+		"minecraft": "~26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
