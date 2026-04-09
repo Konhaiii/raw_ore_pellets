@@ -1,6 +1,6 @@
 package konhaiii.raw_ore_pellets;
 
-import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
+import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.core.Registry;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
@@ -25,7 +25,7 @@ public class ModItems {
 	public static final Item RAW_GOLD_PELLET = register("raw_gold_pellet", Item::new, new Item.Properties());
 
 	public static void initialize() {
-		CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.INGREDIENTS)
-				.register((itemGroup) -> itemGroup.insertAfter(Items.CHARCOAL, RAW_COPPER_PELLET, RAW_IRON_PELLET, RAW_GOLD_PELLET));
+		ItemGroupEvents.modifyEntriesEvent(CreativeModeTabs.INGREDIENTS)
+				.register((itemGroup) -> itemGroup.addAfter(Items.CHARCOAL, RAW_COPPER_PELLET, RAW_IRON_PELLET, RAW_GOLD_PELLET));
 	}
 }
